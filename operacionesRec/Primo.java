@@ -10,7 +10,7 @@ public class Primo {
     public boolean esPrimo(int numero) {
         boolean res;
         
-        if(numero <= 1){
+        if(numero <= 1) {
             res = false;
         }else{
             res = esPrimo(numero,2);
@@ -18,12 +18,12 @@ public class Primo {
         return res;
     }
     
-    private boolean esPrimo(int num, int div){
+    private boolean esPrimo(int num, int div) {
         boolean res;
         
-        if(div == num){
+        if(div == num) {
             res = true;
-        }else if((num%div) == 0){
+        }else if((num%div) == 0) {
             res = false;
         }else{
             res = esPrimo(num, div+1);
@@ -34,10 +34,10 @@ public class Primo {
     /**
      * Suma de los numeros primos en un rango de ini - fin;
      */
-    public int rangoNumPrimos(int ini, int fin){
+    public int rangoNumPrimos(int ini, int fin) {
         int res;
         
-        if(ini > fin){
+        if(ini > fin) {
             res = 0;
         }else if(esPrimo(ini)){
             res = rangoNumPrimos(ini+1, fin) + ini;
@@ -51,13 +51,13 @@ public class Primo {
     /**
      * Se desea encontrar los factores primos de un numero;
      */
-    public ArrayList<Integer> factoresPrimos(int numero){
+    public ArrayList<Integer> factoresPrimos(int numero) {
         return factoresPrimos(new ArrayList<Integer>(), 2, numero);
     }
     
-    private ArrayList<Integer> factoresPrimos(ArrayList<Integer> res, int prim, int numero){
-        if(numero != 1){
-            if((numero%prim) == 0){
+    private ArrayList<Integer> factoresPrimos(ArrayList<Integer> res, int prim, int numero) {
+        if(numero != 1) {
+            if((numero%prim) == 0) {
                 res.add(prim);
                 factoresPrimos(res, prim, numero/prim);
             }else{

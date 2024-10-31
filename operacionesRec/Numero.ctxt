@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Numero
+comment1.params=numero
+comment1.target=int\ cantidadDigitos(int)
+comment1.text=\r\n\ Escribe\ un\ proceso\ recursivo\ que\ permita\ calcular\r\n\ la\ cantidad\ de\ digitos\ que\ tiene\ un\ numero\ positivo.\r\n
+comment2.params=numero
+comment2.target=boolean\ existeDigitoPar(int)
+comment2.text=\r\n\ Escriaba\ un\ metodo\ que\ permita\ saber\ si\ todos\r\n\ los\ digitos\ se\ un\ numero,\ son\ pares;\r\n
+comment3.params=numero
+comment3.target=boolean\ esPar(int)
+comment4.params=numero
+comment4.target=int\ invertirNumero(int)
+comment4.text=\r\n\ invertir\ un\ numero\r\n
+comment5.params=numero\ invertido
+comment5.target=int\ invertirNumero(int,\ int)
+numComments=6
