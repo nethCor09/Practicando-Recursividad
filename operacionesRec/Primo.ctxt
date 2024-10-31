@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Primo
+comment0.text=\r\n\ 2.\ Escribe\ un\ proceso\ recursivo\ que\ permita\ decir\r\n\ si\ un\ numero\ natural\ 'n'\ es\ primo\ p\ no\r\n
+comment1.params=numero
+comment1.target=boolean\ esPrimo(int)
+comment2.params=num\ div
+comment2.target=boolean\ esPrimo(int,\ int)
+comment3.params=ini\ fin
+comment3.target=int\ rangoNumPrimos(int,\ int)
+comment3.text=\r\n\ Suma\ de\ los\ numeros\ primos\ en\ un\ rango\ de\ ini\ -\ fin;\r\n
+comment4.params=numero
+comment4.target=java.util.ArrayList\ factoresPrimos(int)
+comment4.text=\r\n\ Se\ desea\ encontrar\ los\ factores\ primos\ de\ un\ numero;\r\n
+comment5.params=res\ prim\ numero
+comment5.target=java.util.ArrayList\ factoresPrimos(java.util.ArrayList,\ int,\ int)
+numComments=6
